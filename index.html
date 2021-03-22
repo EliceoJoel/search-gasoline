@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+   <link rel="shortcut icon" href="icono.ico" type="image/x-icon">
+   <title>Document</title>
+</head>
+<body>
+   <div class="container">
+      <header>
+         <i class="fas fa-gas-pump"></i>
+         <h2>Gasoline</h2>
+      </header>
+      <div class="content">
+         <h1>Search your Gasoline station</h1>
+         <input type="text" id="search" placeholder="search">
+      </div>
+      <div class="map">
+         <div id="mapa"></div>
+      </div>
+      <footer>
+         <p>Author: Eliceo Joel Herbas Inocente</p>
+         <a href="https://www.linkedin.com/in/eliceojoel/">
+            <i class="fab fa-linkedin-in"></i>
+         </a>
+         <a href="https://github.com/EliceoJoel">
+            <i class="fab fa-github"></i>
+         </a>
+      </footer>
+   </div>
+
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+   <script src="js/api.js"></script>
+   <script src="js/ui.js"></script>
+   <script src="js/app.js"></script>
+</body>
+</html>
